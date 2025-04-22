@@ -18,7 +18,6 @@ export class Ticket extends Model<TicketAttributes, TicketCreationAttributes> im
   public description!: string;
   public assignedUserId!: number;
 
-  // associated User model
   public readonly assignedUser?: User;
 
   public readonly createdAt!: Date;
