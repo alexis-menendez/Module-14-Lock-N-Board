@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/src/routes/api/ticket-routes.ts
+
 import express from 'express';
 import {
   getAllTickets,

@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/dist/seeds/ticket-seeds.js
+
 import { Ticket } from '../models/ticket.js';
 export const seedTickets = async () => {
     await Ticket.bulkCreate([

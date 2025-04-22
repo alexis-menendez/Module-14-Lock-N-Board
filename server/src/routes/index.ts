@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/src/routes/index.ts
+
 import { Router } from 'express';
 import authRoutes from './auth-routes.js';
 import apiRoutes from './api/index.js';

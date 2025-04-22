@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/dist/models/user.js
+
 import { DataTypes, Model } from 'sequelize';
 import bcrypt from 'bcrypt';
 export class User extends Model {

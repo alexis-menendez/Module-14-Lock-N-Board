@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/src/models/index.ts
+
 import dotenv from 'dotenv';
 dotenv.config();
 

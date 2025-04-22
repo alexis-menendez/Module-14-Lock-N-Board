@@ -1,3 +1,5 @@
+# file path: Module-14-Lock-N-Board/.gitignore
+
 # Logs
 logs/
 *.log
@@ -12,11 +14,7 @@ lerna-debug.log*
 node_modules/
 client/node_modules/
 server/node_modules/
-bower_components
-
-# Dependency Lockfiles        
-# Only if you're not using Yarn: yarn.lock  
-# Only if you're not using pnpm: pnpm-lock.yaml   
+bower_components 
 
 # Build Output
 build/

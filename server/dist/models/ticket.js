@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/dist/models/ticket.js
+
 import { DataTypes, Model } from 'sequelize';
 export class Ticket extends Model {
 }

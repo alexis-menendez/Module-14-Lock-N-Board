@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/dist/routes/auth-routes.js
+
 import { Router } from 'express';
 export const login = async (req, res) => {
 

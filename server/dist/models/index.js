@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/dist/models/index.js
+
 import dotenv from 'dotenv';
 dotenv.config();
 import { Sequelize } from 'sequelize';

@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/src/models/user.ts
+
 import { DataTypes, Sequelize, Model, Optional } from 'sequelize';
 import bcrypt from 'bcrypt';
 

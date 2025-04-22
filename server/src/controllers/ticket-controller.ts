@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/src/controllers/ticket-controller.ts
+
 import { Request, Response } from 'express';
 import { Ticket } from '../models/ticket.js';
 import { User } from '../models/user.js';

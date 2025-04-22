@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/dist/routes/api/user-routes.js
+
 import express from 'express';
 import { getAllUsers, getUserById, createUser, updateUser, deleteUser, } from '../../controllers/user-controller.js';
 const router = express.Router();

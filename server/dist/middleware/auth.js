@@ -1,3 +1,5 @@
+// file path Module-14-Lock-N-Board/server/dist/middleware/auth.js
+
 import { DataTypes, Model } from 'sequelize';
 import bcrypt from 'bcrypt';
 export class User extends Model {
