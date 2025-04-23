@@ -67,7 +67,7 @@ Or if you want to only run the client or server:
 
 Client:
 ```bash
-cd ../client
+cd /client
 npm install
 ```
 
@@ -80,7 +80,7 @@ npm install
 **4. Seed the Database**
 
 ```bash
-cd ../server
+cd /server
 npm run seed
 ```
 
