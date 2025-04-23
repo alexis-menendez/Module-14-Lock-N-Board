@@ -1,6 +1,7 @@
 // file path Module-14-Lock-N-Board/server/src/seeds/index.ts
 import dotenv from 'dotenv';
-dotenv.config();
+import path from 'path';
+dotenv.config({ path: path.resolve(__dirname, '../../../.env') });
 console.log("From seed file:", process.env.DB_PASSWORD);
 import { seedUsers } from './user-seeds.js';
 import { seedTickets } from './ticket-seeds.js';
