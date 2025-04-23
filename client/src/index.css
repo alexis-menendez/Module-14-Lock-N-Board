@@ -22,11 +22,11 @@ input:-moz-placeholder {
 
 a {
   font-weight: 500;
-  color: #C184F1;
+  color: #213547;
   text-decoration: inherit;
 }
 a:hover {
-  color: #3F64F6;
+  color: #BF3475;
 }
 
 body {
@@ -58,6 +58,7 @@ button {
 }
 button:hover {
   border-color: #BF3475;
+  background-color: #300B22;
 }
 button:focus,
 button:focus-visible {
