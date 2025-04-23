@@ -1,4 +1,6 @@
 // file path Module-14-Lock-N-Board/server/src/models/user.ts
+import dotenv from 'dotenv';
+dotenv.config();
 import { DataTypes, Model } from 'sequelize';
 import bcrypt from 'bcrypt';
 export class User extends Model {
