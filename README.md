@@ -37,7 +37,7 @@ This tool is ideal for students, developers, and project managers seeking a simp
 
 ---
 
-## Installation
+## Installation **DO NOT FORGET TO REPLACE WITH CORRECT LINKS!**
 
 You can access the live app [here](https://alex-menendez.onrender.com/). To run the app locally: **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
 
@@ -92,7 +92,7 @@ npm run start:dev
 
 ---
 
-## Usage
+## Usage **DO NOT FORGET TO REPLACE WITH CORRECT LINKS!**
 1. Launch the app through [localhost](http://localhost:5173) or at follow this link for the [live deployment](https://alex-menendez.onrender.com/). **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
 2. Register or log in to access your board.
 3. View and manage tickets across swimlanes: To Do, In Progress, and Done.
@@ -103,12 +103,12 @@ npm run start:dev
 
 ---
 
-## Screenshots
+## Screenshots **DO NOT FORGET TO REPLACE WITH CORRECT LINKS!**
 
-![homepage-screenshot](https://github.com/alexis-menendez/Module-12-Crafted-By-Alex/blob/main/Assets/p-home.png?raw=true) **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
-![board-screenshot](https://github.com/alexis-menendez/Module-12-Crafted-By-Alex/blob/main/Assets/p-about.png?raw=true) **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
-![new-ticket-screenshot](https://github.com/alexis-menendez/Module-12-Crafted-By-Alex/blob/main/Assets/p-portfolio.png?raw=true) **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
-![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-12-Crafted-By-Alex/blob/main/Assets/p-contact.png?raw=true) **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
+![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Lock-N-Board/blob/main/Assets/p-home.png?raw=true) 
+![board-screenshot](https://github.com/alexis-menendez/Module-14-Lock-N-Board/blob/main/Assets/p-board.png?raw=true) 
+![new-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Lock-N-Board/blob/main/Assets/p-new.png?raw=true) 
+![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Lock-N-Board/blob/main/Assets/p-edit.png?raw=true) 
 
 
 
