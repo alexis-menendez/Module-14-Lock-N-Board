@@ -1,9 +1,7 @@
-// file path Module-14-Lock-N-Board/server/dist/models/user.js
-
+// file path Module-14-Lock-N-Board/server/src/models/user.ts
 import { DataTypes, Model } from 'sequelize';
 import bcrypt from 'bcrypt';
 export class User extends Model {
-
     async setPassword(password) {
         const saltRounds = 10;
         this.password = await bcrypt.hash(password, saltRounds);

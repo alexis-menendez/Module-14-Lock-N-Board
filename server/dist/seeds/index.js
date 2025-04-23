@@ -1,5 +1,4 @@
-// file path Module-14-Lock-N-Board/server/dist/seeds/index.js
-
+// file path Module-14-Lock-N-Board/server/src/seeds/index.ts
 import { seedUsers } from './user-seeds.js';
 import { seedTickets } from './ticket-seeds.js';
 import { sequelize } from '../models/index.js';

@@ -1,7 +1,5 @@
-// file path Module-14-Lock-N-Board/server/dist/controllers/user-controller.js
-
+// file path Module-14-Lock-N-Board/server/src/controllers/user-controller.ts
 import { User } from '../models/user.js';
-
 export const getAllUsers = async (_req, res) => {
     try {
         const users = await User.findAll({
@@ -13,7 +11,6 @@ export const getAllUsers = async (_req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
-
 export const getUserById = async (req, res) => {
     const { id } = req.params;
     try {
@@ -31,7 +28,6 @@ export const getUserById = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
-
 export const createUser = async (req, res) => {
     const { username, password } = req.body;
     try {
@@ -42,7 +38,6 @@ export const createUser = async (req, res) => {
         res.status(400).json({ message: error.message });
     }
 };
-
 export const updateUser = async (req, res) => {
     const { id } = req.params;
     const { username, password } = req.body;
@@ -62,7 +57,6 @@ export const updateUser = async (req, res) => {
         res.status(400).json({ message: error.message });
     }
 };
-
 export const deleteUser = async (req, res) => {
     const { id } = req.params;
     try {

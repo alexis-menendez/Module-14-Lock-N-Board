@@ -1,5 +1,4 @@
-// file path Module-14-Lock-N-Board/server/dist/routes/api/index.js
-
+// file path Module-14-Lock-N-Board/server/src/routes/api/index.ts
 import { Router } from 'express';
 import { ticketRouter } from './ticket-routes.js';
 import { userRouter } from './user-routes.js';

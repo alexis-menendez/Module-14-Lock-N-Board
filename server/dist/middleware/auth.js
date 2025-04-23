@@ -1,40 +1,20 @@
-// file path Module-14-Lock-N-Board/server/dist/middleware/auth.js
-
-import { DataTypes, Model } from 'sequelize';
-import bcrypt from 'bcrypt';
-export class User extends Model {
- 
-    async setPassword(password) {
-        const saltRounds = 10;
-        this.password = await bcrypt.hash(password, saltRounds);
+// file path Module-14-Lock-N-Board/server/src/middleware/auth.ts
+import jwt from 'jsonwebtoken';
+export const authenticateToken = (req, res, next) => {
+    // TODO: verify the token exists and add the user data to the request object
+    const authHeader = req.headers.authorization;
+    if (authHeader) {
+        const token = authHeader.split(' ')[1];
+        const secretKey = process.env.JWT_SECRET_KEY || '';
+        jwt.verify(token, secretKey, (err, user) => {
+            if (err) {
+                return res.sendStatus(403);
+            }
+            req.user = user;
+            return next();
+        });
     }
-}
-export function UserFactory(sequelize) {
-    User.init({
-        id: {
-            type: DataTypes.INTEGER,
-            autoIncrement: true,
-            primaryKey: true,
-        },
-        username: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        password: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-    }, {
-        tableName: 'users',
-        sequelize,
-        hooks: {
-            beforeCreate: async (user) => {
-                await user.setPassword(user.password);
-            },
-            beforeUpdate: async (user) => {
-                await user.setPassword(user.password);
-            },
-        }
-    });
-    return User;
-}
+    else {
+        res.sendStatus(401);
+    }
+};

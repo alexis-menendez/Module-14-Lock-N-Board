@@ -1,16 +1,14 @@
-// file path Module-14-Lock-N-Board/server/dist/controllers/ticket-controller.js
-
+// file path Module-14-Lock-N-Board/server/src/controllers/ticket-controller.ts
 import { Ticket } from '../models/ticket.js';
 import { User } from '../models/user.js';
-
 export const getAllTickets = async (_req, res) => {
     try {
         const tickets = await Ticket.findAll({
             include: [
                 {
                     model: User,
-                    as: 'assignedUser', 
-                    attributes: ['username'], 
+                    as: 'assignedUser',
+                    attributes: ['username'],
                 },
             ],
         });
@@ -20,7 +18,6 @@ export const getAllTickets = async (_req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
-
 export const getTicketById = async (req, res) => {
     const { id } = req.params;
     try {
@@ -44,7 +41,6 @@ export const getTicketById = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
-
 export const createTicket = async (req, res) => {
     const { name, status, description, assignedUserId } = req.body;
     try {
@@ -55,7 +51,6 @@ export const createTicket = async (req, res) => {
         res.status(400).json({ message: error.message });
     }
 };
-
 export const updateTicket = async (req, res) => {
     const { id } = req.params;
     const { name, status, description, assignedUserId } = req.body;
@@ -77,7 +72,6 @@ export const updateTicket = async (req, res) => {
         res.status(400).json({ message: error.message });
     }
 };
-
 export const deleteTicket = async (req, res) => {
     const { id } = req.params;
     try {
