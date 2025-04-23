@@ -1,6 +1,9 @@
 // file path Module-14-Lock-N-Board/server/src/models/ticket.ts
 import dotenv from 'dotenv';
 import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, '../../../.env') });
 import { DataTypes, Model } from 'sequelize';
 export class Ticket extends Model {
