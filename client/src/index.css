@@ -22,11 +22,11 @@ input:-moz-placeholder {
 
 a {
   font-weight: 500;
-  color: #213547;
+  color: #5E1735;
   text-decoration: inherit;
 }
 a:hover {
-  color: #BF3475;
+  color: #DBA6CB;
 }
 
 body {
@@ -53,12 +53,15 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #DBA6CB;
+  color: #5E1735;
+  border: 1px solid #BF3475;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #BF3475;
-  background-color: #300B22;
+  background-color: #5E1735;
+  color: #DBA6CB;
+  border: 1px solid #BF3475;
 }
 button:focus,
 button:focus-visible {
@@ -118,6 +121,57 @@ tbody tr:nth-child(odd) {
   color: #DBA6CB;
   text-decoration: none;
 }
+
+.logoutBtn {
+  background-color: #F2C2D1;  
+  color: #5E1735;            
+  border: 1px solid #BF3475;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-left: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logoutBtn:hover {
+  background-color: #5E1735;
+  color: #DBA6CB;
+  border: 1px solid #BF3475;
+}
+
+
+.new-ticket-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.newTicketBtn {
+  background-color: #DBA6CB;
+  color: #5E1735;
+  border: 1px solid #BF3475;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.newTicketBtn:hover {
+  background-color: #5E1735;
+  color: #DBA6CB;
+  border: 1px solid #BF3475;
+}
+
+.newTicketBtn a {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 .active {
   font-weight: 700;
