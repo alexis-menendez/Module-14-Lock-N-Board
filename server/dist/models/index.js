@@ -1,6 +1,7 @@
 // file path Module-14-Lock-N-Board/server/src/models/index.ts
 import dotenv from 'dotenv';
 dotenv.config();
+console.log("DB_PASSWORD =", process.env.DB_PASSWORD);
 import { Sequelize } from 'sequelize';
 import { UserFactory } from './user.js';
 import { TicketFactory } from './ticket.js';
