@@ -120,7 +120,7 @@ npm run start:dev
 
 ---
 
-## Live Demo
+## Live Demo **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
 
 You can access the live version of the app here: [Lock N Board Live](https://alex-menendez.onrender.com/) **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
 
