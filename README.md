@@ -1,4 +1,4 @@
-# Module-14-lock-n-board
+# Lock N Board
 
 ## **Description**
 
