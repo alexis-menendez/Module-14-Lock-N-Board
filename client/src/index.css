@@ -30,9 +30,9 @@ a:hover {
 }
 
 body {
-  background: #080238;
-  background-size: cover;
-  background-repeat: no-repeat no-repeat;
+  background-image: url('/trippy.dippy.svg');
+  background-size: 500px 100;
+  background-repeat: repeat-x;
   background-position: center center;
   margin: 0;
   place-items: center;
@@ -89,7 +89,7 @@ tbody tr:nth-child(odd) {
 .nav {
   display: flex;
   padding: 1em 2em;
-  background-color: #0D044E;
+  background-color: #300B22
 }
 
 .nav ul {
@@ -192,30 +192,31 @@ tbody tr:nth-child(odd) {
 
 .swim-lane {
   text-align: center;
-  font-weight: 500;
+  font-weight: 900;
+  font-size: clamp(1rem, 2vw, 1.2rem);
   width: 33%;
   height: 90vh; 
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 5px;
   padding: 5px;
-  color: #DBA6CB;
+  color: #1B2A59;
 }
 
 .todo {
-  background-color: #41175F;
+  background-color: rgba(65, 23, 95, 0.7); /* #41175F */
 }
 
 .inprogress {
-  background-color: #5E1735;
+  background-color: rgba(90, 28, 82, 0.7); /* #5E1735 */
 }
 
 .done {
-  background-color: #742144;
+  background-color: rgba(116, 33, 68, 0.7); /* #742144 */
 }
 
 .ticket-card {
   text-align: left;
-  background-color: #200B30;
+  background-color: rgba(32, 11, 48, 0.8);
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 4px;
