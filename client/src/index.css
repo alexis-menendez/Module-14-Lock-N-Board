@@ -87,7 +87,6 @@ tbody tr:nth-child(odd) {
 }
 
 .nav {
-  /*width: 98vw; /* Full viewport width */
   display: flex;
   padding: 1em 2em;
   background-color: #300B22
@@ -228,7 +227,7 @@ tbody tr:nth-child(odd) {
   margin-bottom: 10px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border: 0.1em solid #2F4ECD;
+  border: 0.1em solid #BF3475;
   color: #F2C2D1;
 }
 
