@@ -1,4 +1,4 @@
-// file path Module-14-Lock-N-Board/server/src/routes/auth-routes.ts
+
 
 import { Router, Request, Response } from 'express';
 import { User } from '../models/user.js';

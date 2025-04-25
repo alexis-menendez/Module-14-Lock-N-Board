@@ -1,4 +1,4 @@
-// file path Module-14-Lock-N-Board/server/src/controllers/user-controller.ts
+
 
 import { Request, Response } from 'express';
 import { User } from '../models/user.js';

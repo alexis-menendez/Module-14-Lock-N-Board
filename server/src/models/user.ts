@@ -1,4 +1,4 @@
-// file path Module-14-Lock-N-Board/server/src/models/user.ts
+
 
 import dotenv from 'dotenv';
 import path from 'path';

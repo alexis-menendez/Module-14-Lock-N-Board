@@ -1,4 +1,3 @@
-// file path Module-14-Lock-N-Board/server/src/controllers/ticket-controller.ts
 import { Ticket } from '../models/ticket.js';
 import { User } from '../models/user.js';
 export const getAllTickets = async (_req, res) => {

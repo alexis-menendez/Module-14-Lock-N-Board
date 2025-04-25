@@ -1,4 +1,3 @@
-// file path Module-14-Lock-N-Board/server/src/controllers/user-controller.ts
 import { User } from '../models/user.js';
 export const getAllUsers = async (_req, res) => {
     try {

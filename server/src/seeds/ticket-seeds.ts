@@ -1,4 +1,4 @@
-// file path Module-14-Lock-N-Board/server/src/seeds/ticket-seeds.ts
+
 
 import { Ticket } from '../models/ticket.js';
 

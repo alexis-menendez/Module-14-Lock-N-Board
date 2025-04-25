@@ -1,4 +1,3 @@
-// file path Module-14-Lock-N-Board/server/src/middleware/auth.ts
 import jwt from 'jsonwebtoken';
 export const authenticateToken = (req, res, next) => {
     // TODO: verify the token exists and add the user data to the request object

@@ -1,4 +1,4 @@
-# Module 14: lock-n-board
+# Module 14: Taskadelic
 Authentication with JSON Web Tokens (JWTs) is important for full-stack applications. It provides a secure way to verify user identities. JWTs are small, URL-safe tokens that store authentication data, allowing servers to verify users. They can also store extra information and be easily checked for security.
 
 # Kanban Board Authentication Challenge

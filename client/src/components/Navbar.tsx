@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className="nav deco-border">
       <div className="nav-title">
-        <Link to="/">Lock'N'Board</Link>
+        <Link to="/">Taskadelic</Link>
       </div>
       <ul>
         {!loginCheck ? (

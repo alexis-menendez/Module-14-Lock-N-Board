@@ -1,8 +1,8 @@
-# Lock N Board
+# Taskadelic
 
 ## **Description**
 
-**Lock N Board** is a full-stack Kanban board application that helps users organize tasks in a visual and intuitive swimlane layout. Built with TypeScript, Express, PostgreSQL, and React, it allows users to register, log in, and manage their tickets across "To Do," "In Progress," and "Done" columns. Inspired by agile methodology, the project was developed for educational purposes and demonstrates modern full-stack development practices.
+**Taskadelic** is a full-stack Kanban board application that helps users organize tasks in a visual and intuitive swimlane layout. Built with TypeScript, Express, PostgreSQL, and React, it allows users to register, log in, and manage their tickets across "To Do," "In Progress," and "Done" columns. Inspired by agile methodology, the project was developed for educational purposes and demonstrates modern full-stack development practices.
 
 Users can:
 

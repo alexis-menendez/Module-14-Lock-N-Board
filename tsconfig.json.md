@@ -1,7 +1,6 @@
 This is what the tsconfig used to look like before I followed ChatGPT's advice, I am saving it here in case I need to revert back to it.
 
 {
-  /* file path: Module-14-Lock-N-Board/tsconfig.json */
 
   "compilerOptions": {
     /* Language and Environment */

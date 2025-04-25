@@ -1,5 +1,5 @@
 {
-  /* file path: Module-14-Lock-N-Board/server/tsconfig.json */
+ 
   
   "extends": "../tsconfig.json",
   "compilerOptions": {
