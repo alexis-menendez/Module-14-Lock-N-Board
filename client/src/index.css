@@ -32,7 +32,7 @@ a:hover {
 body {
   background-image: url('/trippy.dippy.svg');
   background-size: 500px 100;
-  background-repeat: repeat-x;
+  background-repeat: repeat-x repeat-y;
   background-position: center center;
   margin: 0;
   place-items: center;
@@ -190,6 +190,7 @@ tbody tr:nth-child(odd) {
 .board-display {
   display: flex;
   height: 100vh; 
+  align-items: stretch;
 }
 
 .swim-lane {
@@ -198,7 +199,7 @@ tbody tr:nth-child(odd) {
   font-weight: 900;
   font-size: clamp(1rem, 2vw, 1.2rem);
   width: 33%;
-  height: 150vh; 
+  height: auto; 
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 5px;
   padding: 5px;
@@ -253,6 +254,7 @@ tbody tr:nth-child(odd) {
 
 .form > h1, .form > label {
   color: #0D044E;
+  text-align: center;
   text-shadow: 0 0 3px #F2C2D1, 0 0 6px #F2C2D1;
 }
 
