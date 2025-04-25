@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
 
 :root {
   font-family: 'Inter Tight', system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -104,12 +107,16 @@ tbody tr:nth-child(odd) {
   justify-content: center;
   font-size: 2rem; 
   font-weight: 900;
+  font-family: 'Monoton', 'Inter Tight', system-ui, Avenir, Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
-  color: #BF3475;
+  color: #F2C2D1;
+  text-shadow: 0 0 6px #BF3475, 0 0 12px #BF3475;
+
 }
 
 .nav-title a {
-  color: #BF3475;
+  color: #F2C2D1;
+  text-shadow: 0 0 6px #BF3475, 0 0 12px #BF3475;
 }
 
 .nav-item {
@@ -122,6 +129,46 @@ tbody tr:nth-child(odd) {
   color: #F2C2D1;
   text-decoration: none;
 }
+
+.deco-border {
+  position: relative;
+  border-top: 9px double #BF3475;
+  border-bottom: 9px double #BF3475;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* LEFT */
+.deco-border::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 70%;
+  border-left: 6px double #BF3475;
+  border-top: 6px double #BF3475;
+  border-bottom: 6px double #BF3475;
+  pointer-events: none;
+}
+
+/* RIGHT */
+.deco-border::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 70%;
+  border-right: 6px double #BF3475;
+  border-top: 6px double #BF3475;
+  border-bottom: 6px double #BF3475;
+  pointer-events: none;
+}
+
+
 
 .logoutBtn {
   background-color: #F2C2D1;  
@@ -196,7 +243,6 @@ tbody tr:nth-child(odd) {
 
 .swim-lane {
   text-align: center;
-  
   font-weight: 900;
   font-size: clamp(1rem, 2vw, 1.2rem);
   width: 33%;
@@ -209,14 +255,17 @@ tbody tr:nth-child(odd) {
 
 .todo {
   background-color: rgba(65, 23, 95, 0.7); /* #41175F */
+  border-top: 9px double #BF3475;
 }
 
 .inprogress {
   background-color: rgba(90, 28, 82, 0.7); /* #5E1735 */
+  border-top: 9px double #BF3475;
 }
 
 .done {
   background-color: rgba(116, 33, 68, 0.7); /* #742144 */
+  border-top: 9px double #BF3475;
 }
 
 .ticket-card {
@@ -225,10 +274,10 @@ tbody tr:nth-child(odd) {
   background-color: rgba(32, 11, 48, 0.8);
   padding: 15px;
   margin-bottom: 10px;
-  border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border: 0.1em solid #BF3475;
   color: #F2C2D1;
+  border-top: 6px double #BF3475;
+  border-bottom: 6px double #BF3475;
 }
 
 .container {
@@ -251,12 +300,56 @@ tbody tr:nth-child(odd) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  border-left: 9px double #BF3475;
+  border-right: 9px double #BF3475;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* LEFT */
+.form::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 9px;
+  transform: translateY(-50%);
+  width: 75%;
+  height: 96%;
+  border-left: 6px double #BF3475;
+  border-top: 6px double #BF3475;
+  border-bottom: 6px double #BF3475;
+  pointer-events: none;
+}
+
+/* RIGHT */
+.form::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 9px;
+  transform: translateY(-50%);
+  width: 75%;
+  height: 96%;
+  border-right: 6px double #BF3475;
+  border-top: 6px double #BF3475;
+  border-bottom: 6px double #BF3475;
+  pointer-events: none;
+}
+
+.form-title {
+  font-family: 'Monoton', 'Inter Tight', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: #F2C2D1;
+  text-shadow: 0 0 6px #BF3475, 0 0 12px #BF3475;
+  margin-bottom: 1rem;
 }
 
 .form > h1, .form > label {
-  color: #0D044E;
+  color: #F2C2D1;
+  text-shadow: 0 0 6px #BF3475, 0 0 12px #BF3475;
   text-align: center;
-  text-shadow: 0 0 3px #F2C2D1, 0 0 6px #F2C2D1;
 }
 
 .form > input {
@@ -271,10 +364,10 @@ tbody tr:nth-child(odd) {
 .form > label {
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-  font-size: 1.1rem;       /* Larger text */
-  font-weight: 600;        /* Slightly bolder */
-  line-height: 1.4;        /* Better vertical spacing */
-  letter-spacing: 0.5px;   /* Optional: improves readability */
+  font-size: 1.1rem;       
+  font-weight: 600;        
+  line-height: 1.4;       
+  letter-spacing: 0.5px;  
   color: #F2C2D1;
   text-align: center;
   text-shadow: 0 0 3px #0D044E, 0 0 6px #0D044E;
@@ -337,15 +430,23 @@ tbody tr:nth-child(odd) {
   margin-right: 0.5rem;
 }
 
+.editBtn:hover {
+  background-color: #F2C2D1;
+  color: #300B22;
+  border: 1px solid #BF3475;
+}
+
 .deleteBtn {
-  background-color: #5E1735;
-  font-weight: 500;
+  background-color: #300B22;
   color: #F2C2D1;
+  font-weight: 500;
   text-decoration: inherit;
 }
 
 .deleteBtn:hover {
-  color: #3F64F6;
+  background-color: #F2C2D1;
+  color: #300B22;
+  border: 1px solid #BF3475;
 }
 
 .login-notice {
@@ -353,8 +454,9 @@ tbody tr:nth-child(odd) {
   width: 100%;
   align-items: center;
   justify-content: center;
-  color: #C184F1;
-  text-shadow: 0 0 4px #742144, 0 0 8px #742144;
+  color: #300B22;
+  text-shadow: 0 0 4px #F2C2D1, 0 0 8px #F2C2D1;
+  font-family: 'Fascinate Inline', 'Inter Tight', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 
