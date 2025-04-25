@@ -5,7 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: #DBA6CB;
+  color: #F2C2D1;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -26,7 +26,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #DBA6CB;
+  color: #F2C2D1;
 }
 
 body {
@@ -52,7 +52,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #DBA6CB;
+  background-color: #F2C2D1;
   color: #5E1735;
   border: 1px solid #BF3475;
   cursor: pointer;
@@ -60,7 +60,7 @@ button {
 }
 button:hover {
   background-color: #5E1735;
-  color: #DBA6CB;
+  color: #F2C2D1;
   border: 1px solid #BF3475;
 }
 button:focus,
@@ -69,7 +69,7 @@ button:focus-visible {
 }
 
 main {
-  color: #DBA6CB;
+  color: #F2C2D1;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -79,7 +79,7 @@ main {
 tr {
   border-radius: 10px;
   background-color: #200B30;
-  color: #DBA6CB;
+  color: #F2C2D1;
 }
 
 tbody tr:nth-child(odd) {
@@ -118,7 +118,7 @@ tbody tr:nth-child(odd) {
 }
 
 .nav-link {
-  color: #DBA6CB;
+  color: #F2C2D1;
   text-decoration: none;
 }
 
@@ -137,7 +137,7 @@ tbody tr:nth-child(odd) {
 
 .logoutBtn:hover {
   background-color: #5E1735;
-  color: #DBA6CB;
+  color: #F2C2D1;
   border: 1px solid #BF3475;
 }
 
@@ -150,7 +150,7 @@ tbody tr:nth-child(odd) {
 }
 
 .newTicketBtn {
-  background-color: #DBA6CB;
+  background-color: #F2C2D1;
   color: #5E1735;
   border: 1px solid #BF3475;
   padding: 0.6em 1.2em;
@@ -163,7 +163,7 @@ tbody tr:nth-child(odd) {
 
 .newTicketBtn:hover {
   background-color: #5E1735;
-  color: #DBA6CB;
+  color: #F2C2D1;
   border: 1px solid #BF3475;
 }
 
@@ -192,6 +192,7 @@ tbody tr:nth-child(odd) {
 
 .swim-lane {
   text-align: center;
+  
   font-weight: 900;
   font-size: clamp(1rem, 2vw, 1.2rem);
   width: 33%;
@@ -199,7 +200,7 @@ tbody tr:nth-child(odd) {
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 5px;
   padding: 5px;
-  color: #1B2A59;
+  color: #F2C2D1;
 }
 
 .todo {
@@ -216,13 +217,14 @@ tbody tr:nth-child(odd) {
 
 .ticket-card {
   text-align: left;
+  font-weight: 400; 
   background-color: rgba(32, 11, 48, 0.8);
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border: 0.1em solid #2F4ECD;
-  color: #DBA6CB;
+  color: #F2C2D1;
 }
 
 .container {
@@ -237,9 +239,8 @@ tbody tr:nth-child(odd) {
 
 
 .form {
-  width: 60%;
-  height: 80%;
-  background-color: #0D044E;
+  width: 75%;
+  height: 100%;
   background-color: rgba(65, 23, 95, 0.7); /* #41175F */
   margin: auto;
   display: flex;
@@ -250,13 +251,13 @@ tbody tr:nth-child(odd) {
 
 .form > h1, .form > label {
   color: #0D044E;
-  text-shadow: 0 0 3px #DBA6CB, 0 0 6px #DBA6CB;
+  text-shadow: 0 0 3px #F2C2D1, 0 0 6px #F2C2D1;
 }
 
 .form > input {
   width: 200px;
   background-color: #300B22;
-  color: #DBA6CB;
+  color: #F2C2D1;
   border: 1px solid #BF3475;
 }
 
@@ -268,15 +269,15 @@ tbody tr:nth-child(odd) {
 .form button {
   margin-top: 2.5%;
   background-color: #300B22;
-  color: #DBA6CB;
+  color: #F2C2D1;
   border: 1px solid #BF3475;
 }
 
 .form button:hover {
-  background-color: #DBA6CB;
+  background-color: #F2C2D1;
   color: #300B22;
   border: 1px solid #BF3475;
-  box-shadow: 0 0 8px #DBA6CB, 0 0 12px #DBA6CB;
+  box-shadow: 0 0 8px #F2C2D1, 0 0 12px #F2C2D1;
 }
 
 .form textarea {
@@ -284,13 +285,13 @@ tbody tr:nth-child(odd) {
   min-height: 30px;
   min-width: 30px;
   background-color: #300B22;
-  color: #DBA6CB;
+  color: #F2C2D1;
   border: 1px solid #5E1735;
 }
 
 .editBtn {
   background-color: #300B22;
-  color: #C184F1;
+  color: #F2C2D1;
   border-radius: 8px;
   border: 1px solid #BF3475;
   padding: 0.6em 1.2em;
@@ -302,7 +303,7 @@ tbody tr:nth-child(odd) {
 .deleteBtn {
   background-color: #5E1735;
   font-weight: 500;
-  color: #DBA6CB;
+  color: #F2C2D1;
   text-decoration: inherit;
 }
 
