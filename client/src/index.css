@@ -103,8 +103,9 @@ tbody tr:nth-child(odd) {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: larger;
+  font-size: 2rem; 
   font-weight: 900;
+  letter-spacing: 1px;
   color: #BF3475;
 }
 
