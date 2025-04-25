@@ -33,7 +33,19 @@ a:hover {
 }
 
 body {
-  background-image: url('/trippy.dippy.svg');
+  background-image: url('/trippy.dippy.deco.2.svg');
+  background-size: 500px 100;
+  background-repeat: repeat-x repeat-y;
+  background-position: center center;
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Only when on the Board page */
+body.board-background {
+  background-image: url('/trippy.dippy.board.svg');
   background-size: 500px 100;
   background-repeat: repeat-x repeat-y;
   background-position: center center;

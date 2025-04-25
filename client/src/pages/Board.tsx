@@ -47,6 +47,13 @@ const Board = () => {
   }, []);
 
   useEffect(() => {
+    document.body.classList.add('board-background');
+    return () => {
+      document.body.classList.remove('board-background');
+    };
+  }, []);
+
+  useEffect(() => {
     if(loginCheck) {
       fetchTickets();
     }
