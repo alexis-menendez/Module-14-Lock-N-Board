@@ -16,7 +16,6 @@ const CreateTicket = () => {
   });
 
   const navigate = useNavigate();
-
   const [users, setUsers] = useState<UserData[]>([]);
 
   const getAllUsers = async () => {
@@ -54,12 +53,12 @@ const CreateTicket = () => {
     const { name, value } = e.target;
     setNewTicket((prev) => ({ ...prev, [name]: value }));
   };
-  
+
   const handleTextChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setNewTicket((prev) => ({ ...prev, [name]: value }));
   };
-  
+
   const handleUserChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const { name, value } = e.target;
     setNewTicket((prev) => ({ ...prev, [name]: value === '' ? null : parseInt(value) }));
@@ -74,7 +73,7 @@ const CreateTicket = () => {
         <textarea
           id='tName'
           name='name'
-          value={newTicket?.name || ''}
+          value={newTicket.name || ''}
           onChange={handleTextAreaChange}
         />
 
@@ -82,7 +81,7 @@ const CreateTicket = () => {
         <select
           name='status'
           id='tStatus'
-          value={newTicket?.status || ''}
+          value={newTicket.status || ''}
           onChange={handleTextChange}
           className={newTicket.status === '' ? 'placeholder-option' : ''}
         >
@@ -96,15 +95,21 @@ const CreateTicket = () => {
         <textarea
           id='tDescription'
           name='description'
-          value={newTicket?.description || ''}
+          value={newTicket.description || ''}
           onChange={handleTextAreaChange}
+          onInput={(e) => {
+            const target = e.currentTarget;
+            target.style.height = 'auto';
+            target.style.height = `${target.scrollHeight}px`;
+          }}
+          style={{ overflow: 'hidden', resize: 'none' }}
         />
 
         <label htmlFor='tUserId'>User's ID</label>
         <select
           name='assignedUserId'
           id='tUserId'
-          value={newTicket?.assignedUserId?.toString() || ''}
+          value={newTicket.assignedUserId?.toString() || ''}
           onChange={handleUserChange}
           className={newTicket.assignedUserId === null ? 'placeholder-option' : ''}
         >
@@ -116,10 +121,14 @@ const CreateTicket = () => {
           ))}
         </select>
 
-        <button type='submit'>Submit Form</button>
-        <button type="button" onClick={() => navigate('/')}>
-          Back to Board
-        </button>
+        <div style={{ marginTop: '1.5rem' }}>
+          <button type='submit' style={{ marginRight: '1rem' }}>
+            Submit Form
+          </button>
+          <button type="button" onClick={() => navigate('/')}>
+            Back to Board
+          </button>
+        </div>
       </form>
     </div>
   );
