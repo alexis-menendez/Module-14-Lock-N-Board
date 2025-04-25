@@ -240,6 +240,7 @@ tbody tr:nth-child(odd) {
   width: 60%;
   height: 80%;
   background-color: #0D044E;
+  background-color: rgba(65, 23, 95, 0.7); /* #41175F */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -248,7 +249,8 @@ tbody tr:nth-child(odd) {
 }
 
 .form > h1, .form > label {
-  color: #BF3475;
+  color: #0D044E;
+  text-shadow: 0 0 3px #DBA6CB, 0 0 6px #DBA6CB;
 }
 
 .form > input {
@@ -265,9 +267,16 @@ tbody tr:nth-child(odd) {
 
 .form button {
   margin-top: 2.5%;
-  background-color: #41175F;
+  background-color: #300B22;
   color: #DBA6CB;
-  border: 1px solid #C184F1;
+  border: 1px solid #BF3475;
+}
+
+.form button:hover {
+  background-color: #DBA6CB;
+  color: #300B22;
+  border: 1px solid #BF3475;
+  box-shadow: 0 0 8px #DBA6CB, 0 0 12px #DBA6CB;
 }
 
 .form textarea {
