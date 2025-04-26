@@ -17,7 +17,7 @@ const Board = () => {
   const [loginCheck, setLoginCheck] = useState(false);
 
   const checkLogin = () => {
-    if(auth.loggedIn()) {
+    if (auth.loggedIn()) {
       setLoginCheck(true);
     }
   };
@@ -32,7 +32,7 @@ const Board = () => {
     }
   };
 
-  const deleteIndvTicket = async (ticketId: number) : Promise<ApiMessage> => {
+  const deleteIndvTicket = async (ticketId: number): Promise<ApiMessage> => {
     try {
       const data = await deleteTicket(ticketId);
       fetchTickets();
@@ -40,7 +40,7 @@ const Board = () => {
     } catch (err) {
       return Promise.reject(err);
     }
-  }
+  };
 
   useLayoutEffect(() => {
     checkLogin();
@@ -54,7 +54,7 @@ const Board = () => {
   }, []);
 
   useEffect(() => {
-    if(loginCheck) {
+    if (loginCheck) {
       fetchTickets();
     }
   }, [loginCheck]);
@@ -65,36 +65,51 @@ const Board = () => {
 
   return (
     <>
-    {
-      !loginCheck ? (
+      {!loginCheck ? (
         <div className='login-notice'>
-          <h1>
-            Login To Create & View Tickets
-          </h1>
-        </div>  
+          <h1>Login To Create & View Tickets</h1>
+        </div>
       ) : (
-          <div className='board'>
-            <div className='new-ticket-wrapper'>
-              <button type='button' className='newTicketBtn'>
-                <Link to='/create'>New Ticket</Link>
-              </button>
-            </div>
-            <div className='board-display'>
-              {boardStates.map((status) => {
-                const filteredTickets = tickets.filter(ticket => ticket.status === status);
-                return (
-                  <Swimlane 
-                    title={status} 
-                    key={status} 
-                    tickets={filteredTickets} 
+        <div className='board'>
+          <div className='new-ticket-wrapper'>
+            <button type='button' className='newTicketBtn'>
+              <Link to='/create'>New Ticket</Link>
+            </button>
+
+            {/* Jump to section menu - mobile only */}
+            <select
+              className='jump-menu'
+              onChange={(e) => {
+                const sectionId = e.target.value;
+                const section = document.getElementById(sectionId);
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
+              <option value="">Jump to Section</option>
+              <option value="todo">Todo</option>
+              <option value="inprogress">In Progress</option>
+              <option value="done">Done</option>
+            </select>
+          </div>
+
+          <div className='board-display'>
+            {boardStates.map((status) => {
+              const filteredTickets = tickets.filter(ticket => ticket.status === status);
+              return (
+                <div id={status.replace(/\s+/g, '').toLowerCase()} key={status}>
+                  <Swimlane
+                    title={status}
+                    tickets={filteredTickets}
                     deleteTicket={deleteIndvTicket}
                   />
-                );
-              })}
-            </div>
+                </div>
+              );
+            })}
           </div>
-        )
-    }
+        </div>
+      )}
     </>
   );
 };
