@@ -105,10 +105,10 @@ npm run start:dev
 
 ## Screenshots **DO NOT FORGET TO REPLACE WITH CORRECT LINKS!**
 
-![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Lock-N-Board/blob/main/Assets/p-home.png?raw=true) 
-![board-screenshot](https://github.com/alexis-menendez/Module-14-Lock-N-Board/blob/main/Assets/p-board.png?raw=true) 
-![new-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Lock-N-Board/blob/main/Assets/p-new.png?raw=true) 
-![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Lock-N-Board/blob/main/Assets/p-edit.png?raw=true) 
+![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-home.png?raw=true) 
+![board-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-board.png?raw=true) 
+![new-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-new.png?raw=true) 
+![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-edit.png?raw=true) 
 
 
 
@@ -116,13 +116,13 @@ npm run start:dev
 
 ## Walkthrough Video
 
-[Lock N Board Walkthrough](https://drive.google.com/file/d/1EKAMk0dPdx7ZgTJARjjorZ_RJB6NCyJ9/view?usp=drive_link)
+[Taskadelic Walkthrough](https://drive.google.com/file/d/1jmBUbUBMvLCPqSxbJgaVp5uF7RsvYs1G/view?usp=sharing)
 
 ---
 
 ## Live Demo **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
 
-You can access the live version of the app here: [Lock N Board Live](https://alex-menendez.onrender.com/) **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
+You can access the live version of the app here: [Taskadelic Live](https://alex-menendez.onrender.com/) **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
 
 ---
 
