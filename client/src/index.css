@@ -461,6 +461,19 @@ tbody tr:nth-child(odd) {
   border: 1px solid #BF3475;
 }
 
+.editBtn,
+.deleteBtn {
+  display: inline-block;
+  margin-bottom: 0.5rem; 
+}
+
+@media (min-width: 600px) {
+  .editBtn,
+  .deleteBtn {
+    margin-bottom: 0;
+  }
+}
+
 .login-notice {
   display: flex;
   width: 100%;
