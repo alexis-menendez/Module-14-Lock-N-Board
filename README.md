@@ -103,7 +103,7 @@ npm run start:dev
 
 ---
 
-## Screenshots **DO NOT FORGET TO REPLACE WITH CORRECT LINKS!**
+## Screenshots
 
 ### Desktop Screenshots
 
@@ -171,7 +171,7 @@ You can access the live version of the app here: [Taskadelic Live](https://alex-
 
 ## Contact
 
-### [**Alex Menendez**](https://alex-menendez.onrender.com/) – Junior Developer, Junior Project Manager, and Junior UI/UX Designer
+### [**Alex Menendez**](https://alex-menendez.onrender.com/) – Full-Stack Developer with a focus on UI/UX and team collaboration.
 
 - **Website**: [Crafted-By-Alex](https://alex-menendez.onrender.com/)
 - **LinkedIn**: [in/alex-d-menendez](https://www.linkedin.com/in/alex-d-menendez/)
