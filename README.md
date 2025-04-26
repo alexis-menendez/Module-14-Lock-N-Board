@@ -116,7 +116,7 @@ npm run start:dev
 
 ## Walkthrough Video
 
-[Lock N Board Walkthrough](https://drive.google.com/file/d/1EKAMk0dPdx7ZgTJARjjorZ_RJB6NCyJ9/view?usp=drive_link)
+[Lock N Board Walkthrough](https://drive.google.com/file/d/1jmBUbUBMvLCPqSxbJgaVp5uF7RsvYs1G/view?usp=sharing)
 
 ---
 
