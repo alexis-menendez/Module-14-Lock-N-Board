@@ -37,9 +37,9 @@ This tool is ideal for students, developers, and project managers seeking a simp
 
 ---
 
-## Installation **DO NOT FORGET TO REPLACE WITH CORRECT LINKS!**
+## Installation 
 
-You can access the live app [here](https://alex-menendez.onrender.com/). To run the app locally: **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
+You can access the live app [here](https://taskadelic-kanban.onrender.com). To run the app locally: 
 
 **1. Clone the Repository**
 
@@ -81,6 +81,7 @@ npm install
 
 ```bash
 cd /server
+npx tsc
 npm run seed
 ```
 
@@ -92,8 +93,8 @@ npm run start:dev
 
 ---
 
-## Usage **DO NOT FORGET TO REPLACE WITH CORRECT LINKS!**
-1. Launch the app through [localhost](http://localhost:5173) or at follow this link for the [live deployment](https://alex-menendez.onrender.com/). **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
+## Usage 
+1. Launch the app locally or follow this link for the [live deployment](https://taskadelic-kanban.onrender.com.)
 2. Register or log in to access your board.
 3. View and manage tickets across swimlanes: To Do, In Progress, and Done.
 4. Create new tickets using the Create Ticket form.
@@ -153,9 +154,9 @@ I created two walkthrough vides, one for desktop and one for mobile.
 
 ---
 
-## Live Demo **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
+## Live Demo 
 
-You can access the live version of the app here: [Taskadelic Live](https://alex-menendez.onrender.com/) **DO NOT FORGET TO REPLACE WITH CORRECT LINK!**
+You can access the live version of the app here: [Taskadelic Live](https://taskadelic-kanban.onrender.com) 
 
 ---
 
