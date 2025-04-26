@@ -103,20 +103,53 @@ npm run start:dev
 
 ---
 
-## Screenshots **DO NOT FORGET TO REPLACE WITH CORRECT LINKS!**
+## Screenshots
 
-![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-home.png?raw=true) 
-![board-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-board.png?raw=true) 
-![new-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-new.png?raw=true) 
-![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-edit.png?raw=true) 
+### Desktop Screenshots
 
+#### Home
+![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicHome.png?raw=true) 
 
+#### Login
+![login-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicLogin.png?raw=true) 
+
+#### Board
+![board-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicBoard.png?raw=true) 
+
+#### Create Ticket
+![create-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicCreateTicket.png?raw=true) 
+
+#### Edit Ticket
+![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicEditTicket.png?raw=true) 
+
+### Mobile Screenshots
+
+#### Home
+![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicHome.png?raw=true) 
+
+#### Login
+![login-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicLogin.png?raw=true) 
+
+#### Board
+![board-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicBoard.png?raw=true) 
+
+#### Create Ticket
+![create-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicCreateTicket.png?raw=true) 
+
+#### Edit Ticket
+![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicEditTicket.png?raw=true) 
 
 ---
 
 ## Walkthrough Video
 
-[Taskadelic Walkthrough](https://drive.google.com/file/d/1jmBUbUBMvLCPqSxbJgaVp5uF7RsvYs1G/view?usp=sharing)
+I created two walkthrough vides, one for desktop and one for mobile. 
+
+### Desktop
+[Desktop Walkthrough](https://drive.google.com/file/d/1jmBUbUBMvLCPqSxbJgaVp5uF7RsvYs1G/view?usp=sharing)
+
+### Mobile
+[Mobile Walkthrough](https://drive.google.com/file/d/1ncT8E3CdFLTaZE9sgqJ4lOv6l82EULA0/view?usp=sharing)
 
 ---
 
@@ -138,7 +171,7 @@ You can access the live version of the app here: [Taskadelic Live](https://alex-
 
 ## Contact
 
-### [**Alex Menendez**](https://alex-menendez.onrender.com/) – Junior Developer, Junior Project Manager, and Junior UI/UX Designer
+### [**Alex Menendez**](https://alex-menendez.onrender.com/) – Full-Stack Developer with a focus on UI/UX and team collaboration.
 
 - **Website**: [Crafted-By-Alex](https://alex-menendez.onrender.com/)
 - **LinkedIn**: [in/alex-d-menendez](https://www.linkedin.com/in/alex-d-menendez/)
