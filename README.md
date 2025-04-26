@@ -108,36 +108,36 @@ npm run start:dev
 ### Desktop Screenshots
 
 #### Home
-![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-TaskadelicHome.png?raw=true) 
+![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicHome.png?raw=true) 
 
 #### Login
-![login-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-TaskadelicLogin.png?raw=true) 
+![login-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicLogin.png?raw=true) 
 
 #### Board
-![board-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-TaskadelicBoard.png?raw=true) 
+![board-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicBoard.png?raw=true) 
 
 #### Create Ticket
-![create-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-TaskadelicCreateTicket.png?raw=true) 
+![create-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicCreateTicket.png?raw=true) 
 
 #### Edit Ticket
-![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-TaskadelicEditTicket.png?raw=true) 
+![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/TaskadelicEditTicket.png?raw=true) 
 
 ### Mobile Screenshots
 
 #### Home
-![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-Mobile-TaskadelicHome.png?raw=true) 
+![homepage-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicHome.png?raw=true) 
 
 #### Login
-![login-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-Mobile-TaskadelicLogin.png?raw=true) 
+![login-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicLogin.png?raw=true) 
 
 #### Board
-![board-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-Mobile-TaskadelicBoard.png?raw=true) 
+![board-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicBoard.png?raw=true) 
 
 #### Create Ticket
-![create-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-Mobile-TaskadelicCreateTicket.png?raw=true) 
+![create-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicCreateTicket.png?raw=true) 
 
 #### Edit Ticket
-![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/p-Mobile-TaskadelicEditTicket.png?raw=true) 
+![edit-ticket-screenshot](https://github.com/alexis-menendez/Module-14-Taskadelic/blob/main/Assets/Mobile-TaskadelicEditTicket.png?raw=true) 
 
 ---
 
